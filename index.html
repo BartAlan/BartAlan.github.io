@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <p>Alan Bart</p>
+        <nav>
+            <ul>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section id="hero">
+            <div>
+                <h1>Faites décoller votre site web !</h1>
+                <p>Venez découvrir mes compétences en développement web</p>
+                <a href="#skills">Découvrir</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Compétences</h2>
+            <div class="container">
+                <img src="images/logo-reactjs.png" alt="">
+                <img src="images/logo-react_native.png" alt="">
+                <img src="images/logo-laravel.png" alt="">
+                <img src="images/logo-wordpress.png" alt="">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À propos</h2>
+            <div class="container">
+                <div class="ctn-img_box">
+                    <img src="images/icon-seo.svg" alt="Diplôme">
+                    <h3>SEO</h3>
+                    <p>Meilleur classement</p>
+                </div>
+                <div class="ctn-img_box">
+                    <img src="images/icon-mobile.svg" alt="Diplôme">
+                    <h3>Responsive</h3>
+                    <p>Toutes plateformes</p>
+                </div>
+                <div class="ctn-img_box">
+                    <img src="images/icon-scalable.svg" alt="Diplôme">
+                    <h3>Évolutif</h3>
+                    <p>Amélioration futur</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <form action="">
+                <h2>Contactez-moi</h2>
+                <div class="row">
+                    <div class="ctn-input">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="ctn-input">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                </div>
+                <div class="ctn-input">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="ctn-input">
+                    <label for="message">Adresse mail</label>
+                    <textarea id="message" name="message" rows="5" maxlength="250"></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 - Portfolio Alan Bart</p>
+    </footer>
+
+    <a href="#" id="top">
+        <img src="images/icon-arrow.svg" alt="">
+    </a>
+
+</body>
+</html>
